@@ -1,0 +1,15 @@
+body {
+	display: flex;
+    align-items: center;
+}
+
+canvas#viewport {
+	width: 50% !important;
+	margin: 0 auto;
+}
+
+@media(max-width: 767px) {
+	canvas#viewport {
+		width: 100% !important;
+	}
+}
